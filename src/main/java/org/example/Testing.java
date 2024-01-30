@@ -33,8 +33,8 @@ public class Testing {
                         question += num1 + " x " + num2;
                         break;
                     case 3:
-                        num2 = (num2 == 0) ? 1 : num2;
-                        rightAnswer += num1 / num2;
+                       // num2 = (num2 == 0) ? 1 : num2;
+                        rightAnswer = num1 / num2;
                         question += num1 + " / " + num2;
                         break;
                 }
@@ -43,10 +43,13 @@ public class Testing {
                 int userAnswer = scanner.nextInt();
 
                 if(userAnswer == rightAnswer){
+                    System.out.println("You are correct!");
                     score++;
 
+                }else{
+                    System.out.println("Wrong answer! The correct answer is: " + rightAnswer);
                 }
             }
-        System.out.println(name + "your score is: " + score + "/5");
+        System.out.println(name + " your score is: " + score + "/5");
         }
     }
