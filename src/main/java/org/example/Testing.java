@@ -17,7 +17,7 @@ public class Testing {
                 int num2 = random.nextInt(10) + 1;
                 int calculation = random.nextInt(4);
 
-                int rightAnswer = 0;
+                double rightAnswer = 0;
                 String question = "Question " + i + ": ";
                 switch (calculation) {
                     case 0: //Addition
@@ -34,13 +34,13 @@ public class Testing {
                         break;
                     case 3:
                        // num2 = (num2 == 0) ? 1 : num2;
-                        rightAnswer = num1 / num2;
+                        rightAnswer = (double)num1 / num2;
                         question += num1 + " / " + num2;
                         break;
                 }
                 System.out.println(question);
                 System.out.println("Your answer is: ");
-                int userAnswer = scanner.nextInt();
+                double userAnswer = scanner.nextInt();
 
                 if(userAnswer == rightAnswer){
                     System.out.println("You are correct!");
