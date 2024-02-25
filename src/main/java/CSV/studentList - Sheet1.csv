@@ -1,0 +1,11 @@
+StudentName,ID,Gender,CourseScore,PayTuition,Offence
+Jesse,S001,Male,50,TRUE,FALSE
+John,S002,Female,60,TRUE,FALSE
+Humphrey,S003,Male,70,TRUE,FALSE
+James,S004,Female,80,TRUE,FALSE
+Justin,S005,Male,90,TRUE,FALSE
+Jean,S006,Male,60,TRUE,FALSE
+Johnson,S007,Female,50,TRUE,FALSE
+Angel,S008,Female,40,TRUE,FALSE
+Michael,S009,Male,60,TRUE,FALSE
+Gabby,S010,Female,40,TRUE,FALSE
