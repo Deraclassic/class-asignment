@@ -16,5 +16,4 @@ public class GradeTracker {
         }
         else return -1;
     }
-
 }
